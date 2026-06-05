@@ -129,8 +129,6 @@ The project follows a complete deep learning workflow:
 
 # 🧠 Final Model Architecture
 
-After multiple experiments, hyperparameter tuning, and architecture comparisons, the final selected model was:
-
 ```text
 Input (44 Features)
         ↓
@@ -151,6 +149,8 @@ ReLU
 Dropout (0.3)
         ↓
 Linear (1)
+        ↓
+Sigmoid (during inference)
 ```
 
 ### ⚙️ Final Configuration
