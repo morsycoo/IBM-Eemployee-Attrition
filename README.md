@@ -246,7 +246,7 @@ IBM_EMPLOYEE_ATTRITION/
 Clone the repository:
 
 ```bash
-git clone <your-repository-link>
+git clone <https://github.com/morsycoo/IBM-Eemployee-Attrition>
 ```
 
 Navigate into the project:
