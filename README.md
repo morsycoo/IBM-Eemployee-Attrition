@@ -231,6 +231,8 @@ IBM_EMPLOYEE_ATTRITION/
 │   └── deep_learning_employee_attrition.ipynb
 │
 ├── src/
+│   ├── model.py
+│   └── utils.py
 │
 ├── README.md
 ├── requirements.txt
