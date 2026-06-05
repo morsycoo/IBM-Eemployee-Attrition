@@ -1,4 +1,4 @@
-# 🧠 Employee Attrition Prediction using Deep Learning
+# 🧠 IBM Employee Attrition Prediction using Deep Learning
 
 A deep learning project for predicting employee attrition using the IBM HR Analytics dataset.
 
