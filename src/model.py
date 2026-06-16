@@ -1,62 +1,31 @@
 import torch
 import torch.nn as nn
 
+class EmployeeAttritionNN(nn.Module):
 
-class TunableEmployeeAttritionNN(
-    nn.Module
-):
+    def __init__(self, input_dim):
 
-    def __init__(
-        self,
-        input_size,
-        hidden1,
-        hidden2,
-        dropout
-    ):
         super().__init__()
 
         self.network = nn.Sequential(
 
-            nn.Linear(
-                input_size,
-                hidden1
-            ),
+        nn.Linear(input_dim, 128),
+        nn.BatchNorm1d(128),
+        nn.ReLU(),
+        nn.Dropout(0.30),
 
-            nn.BatchNorm1d(
-                hidden1
-            ),
+        nn.Linear(128, 64),
+        nn.BatchNorm1d(64),
+        nn.ReLU(),
+        nn.Dropout(0.25),
 
-            nn.ReLU(),
+        nn.Linear(64, 32),
+        nn.ReLU(),
 
-            nn.Dropout(
-                dropout
-            ),
+        nn.Linear(32, 1)
+    )
 
-            nn.Linear(
-                hidden1,
-                hidden2
-            ),
+def forward(self, x):
 
-            nn.BatchNorm1d(
-                hidden2
-            ),
+    return self.network(x)
 
-            nn.ReLU(),
-
-            nn.Dropout(
-                dropout
-            ),
-
-            nn.Linear(
-                hidden2,
-                1
-            )
-        )
-
-    def forward(
-        self,
-        x
-    ):
-        return self.network(
-            x
-        )
