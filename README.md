@@ -373,7 +373,7 @@ IBM-Employee-Attrition-Prediction/
 Clone the repository:
 
 ```bash
-git clone <your-repository-link>
+git clone https://github.com/morsycoo/IBM-Eemployee-Attrition/tree/main
 ```
 
 Navigate into the project:
@@ -468,4 +468,5 @@ Through systematic experimentation, a relatively simpler neural network achieved
 ## 👨‍💻 Author
 
 **Mahmoud Morsy**
+
 AI Engineer | Machine Learning | Deep Learning | Data Science
