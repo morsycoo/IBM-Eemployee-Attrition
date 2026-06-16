@@ -1,5 +1,39 @@
-__pycache__/
+# Python
+
+**pycache**/
+*.py[cod]
+
+# Jupyter
+
 .ipynb_checkpoints/
-*.pyc
-.env
+
+# Virtual Environments
+
 venv/
+.venv/
+env/
+
+# Environment Variables
+
+.env
+
+# VS Code
+
+.vscode/
+
+# OS Files
+
+.DS_Store
+Thumbs.db
+
+# Model Files
+
+*.pth
+
+# Keep final trained model
+
+!models/employee_attrition_nn.pth
+
+# Keep final trained model
+
+!models/employee_attrition_nn.pth
