@@ -1,6 +1,7 @@
 <div align="center">
 
 ## 🧠 IBM Employee Attrition Prediction using Deep Learning | PyTorch
+</p>
 
 An end-to-end deep learning project for predicting employee attrition using the IBM HR Analytics Employee Attrition Dataset.
 
