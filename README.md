@@ -4,14 +4,7 @@
 
 An end-to-end deep learning project for predicting employee attrition using the IBM HR Analytics Employee Attrition Dataset.
 
-<p align="center">
-  <img
-    src="assets/IBM Employee Attrition Prediction.png"
-    alt="IBM Employee Attrition Prediction"
-    width="100%"
-  />
-</p>
-<p align="center">
+
         
 The goal of this project is to identify employees who are likely to leave the company and help HR teams make proactive retention decisions before employee resignation occurs.
 
