@@ -16,6 +16,8 @@ An end-to-end deep learning project for predicting employee attrition using the 
         
 The goal of this project is to identify employees who are likely to leave the company and help HR teams make proactive retention decisions before employee resignation occurs.
 
+</div>
+
 Built using **PyTorch**, this project follows a complete real-world machine learning workflow, including:
 
 * Exploratory Data Analysis (EDA)
